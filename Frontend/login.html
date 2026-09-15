@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Entrar — SlixSlax</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body class="auth-body">
+
+  <div class="background">
+
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+  </div>
+
+
+  <main class="auth-container">
+
+    <div class="auth-card">
+
+      <a href="index.html" class="back">
+        ← Voltar
+      </a>
+
+
+      <div class="auth-logo">
+        Slix<span>Slax</span>
+      </div>
+
+
+      <h1>
+        Bem-vindo de volta
+      </h1>
+
+      <p class="auth-description">
+        Entre na sua conta SlixSlax.
+      </p>
+
+
+      <form id="loginForm">
+
+        <div class="input-group">
+
+          <label>
+            E-mail
+          </label>
+
+          <input
+            type="email"
+            id="email"
+            placeholder="voce@email.com"
+            required
+          >
+
+        </div>
+
+
+        <div class="input-group">
+
+          <label>
+            Senha
+          </label>
+
+          <input
+            type="password"
+            id="password"
+            placeholder="Sua senha"
+            required
+          >
+
+        </div>
+
+
+        <button
+          type="submit"
+          class="auth-button"
+        >
+          Entrar
+        </button>
+
+      </form>
+
+
+      <div
+        id="message"
+        class="form-message"
+      ></div>
+
+
+      <p class="auth-footer">
+
+        Ainda não possui uma conta?
+
+        <a href="cadastro.html">
+          Criar conta
+        </a>
+
+      </p>
+
+    </div>
+
+  </main>
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
